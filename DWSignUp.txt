@@ -1,0 +1,220 @@
+<?php
+global $post;
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0 " /><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <title></title>
+    <style type="text/css">
+        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}
+        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+
+        }
+    .container {
+        width: 900px;
+        margin: 30px auto;
+        text-align: center;
+
+    }
+    .header {
+        display: flex;
+        justify-content: center;
+
+    }
+        .signup {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            -webkit-box-shadow: -2px 1px 11px 5px rgba(204,204,204,0.55);
+            -moz-box-shadow: -2px 1px 11px 5px rgba(204,204,204,0.55);
+            box-shadow: -2px 1px 11px 5px rgba(204,204,204,0.55);
+            width: 400px;
+            margin: 100px auto;
+            background-color: transparent;
+            border-radius: 10px;
+            padding: 20px 30px;
+        }
+        .signup h2 {
+           text-transform: uppercase;
+            padding-bottom: 20px;
+            color: #3d5165;
+        }
+    #required {
+        text-align: right;
+        color:#555;
+        font-size: 12px;
+
+    }
+ .mc-field-group {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-bottom: 10px;
+
+
+ }
+        label {
+            text-align: left;
+            color:#555;
+            font-size: 14px;
+        }
+        input, select {
+            margin: 5px 0px;
+            padding: 10px;
+            border: 1px solid #999;
+            border-radius: 5px;
+             }
+       input[type="submit"]{
+           padding: 10px 20px;
+           width: 100% !important;
+           background-color: #455b72;
+           font-size: 14px !important;
+           margin: 20px auto!important;
+           text-transform: uppercase;
+           color: #fff;
+        }
+        input[type="submit"]:hover{
+            padding: 10px 20px;
+            text-transform: uppercase;
+            background-color:  #ee7411;
+            border: none;
+            color: #fff;
+        }
+       .option{
+            color:#555 !important;
+            font-size: 14px !important;
+        }
+
+        #check-box {
+            display: flex;
+            flex-direction: row;
+        }
+        #check-box label {
+            font-size: 13px;
+            padding: 2px 10px;
+        }
+        small {
+            color: #666;
+            font-size: 12px;
+            padding: 20px 0px;
+        }
+
+        @media screen and (max-width: 575px) {
+
+            .container {
+                max-width: 300px!important;
+                width: 300px;
+                display: flex;
+                flex: 1;
+                flex-direction: column;
+                margin: 10px auto;
+                box-shadow: none!important;
+
+            }
+            .signup {
+                width: 300px;
+                max-width: 300px!important;
+                box-shadow: none !important;
+                -webkit-box-shadow:none !important;
+                -moz-box-shadow: none !important;
+                padding: 10px !important;
+                margin: 10px auto !important;
+            }
+            .header a img {
+                text-align: center;
+            }
+     }
+    </style>
+</head>
+<body marginheight="0" marginwidth="0" style="cursor: auto;">
+<div class="container">
+    <div class="header" >
+        <a href="https://www.docwirenews.com/" style="display: block; " target="_blank">
+            <img  width="250"alt="Docwire Logo" src="https://stagedocwire.wpengine.com/wp-content/uploads/2020/07/DW-Network-3.png"
+                  style="width: 250px; display: block; " /></a>
+    </div>
+            <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll" class="signup">
+                    <h2>Join our newsletter</h2>
+                    <div class="indicates-required" id="required" ><span class="asterisk">*</span> indicates required</div>
+                    <div class="mc-field-group">
+                        <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                        </label>
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    </div>
+                    <div class="mc-field-group">
+                        <label for="mce-FNAME">First Name </label>
+                        <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                    </div>
+                    <div class="mc-field-group">
+                        <label for="mce-LNAME">Last Name </label>
+                        <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                    </div>
+                    <div class="mc-field-group">
+                        <label for="mce-MMERGE6">Profession  <span class="asterisk">*</span>
+                        </label>
+                        <select  class="option" name="MMERGE6" class="required" id="mce-MMERGE6">
+
+                            <option  class="option" value="Select Profession">Select Profession</option>
+                            <option class="option" value="Physician">Physician</option>
+                            <option class="option" value="Nurse/Advanced Practice Nurse">Nurse/Advanced Practice Nurse</option>
+                            <option class="option" value="Physician Assistant">Physician Assistant</option>
+                            <option class="option" value="Pharmacist">Pharmacist</option>
+                            <option class="option" value="Medical Student">Medical Student</option>
+                            <option class="option" value="Health Business/Administration">Health Business/Administration</option>
+                            <option class="option" value="Non-Health Professional">Non-Health Professional</option>
+
+
+                        </select>
+                    </div>
+                   <!-- <div class="mc-field-group input-group" id="check-box">
+
+                                <input type="checkbox" value="1" name="group[8][1]" id="mce-group[8]-8-0">
+                                <label for="mce-group[8]-8-0" >I agree to Docwire News' Terms of Use and Privacy Policy.</label>
+
+                    </div>-->
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div class="submit">
+                        <input type="text" style="display: none" name="b_040080a27f33d904ed6b0e282_73a6a21616" tabindex="-1" value="">
+
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" >
+                    </div>
+                    <small>By Clicking submit, you accept our <a href="https://www.docwirenews.com/public/terms-of-use/" target="_blank">Terms of Use</a>
+                         and <a href="https://www.docwirenews.com/public/privacy/" target="_blank">Privacy Policy</a>
+                         and the use of cookies as described therein.</small>
+                </div>
+            </form>
+
+        </div>
+
+
+
+</div>
+
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>(
+    function($) {window.fnames = new Array();
+    window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+</body>
+</html>
+
+
+
+
+
+
+
+
